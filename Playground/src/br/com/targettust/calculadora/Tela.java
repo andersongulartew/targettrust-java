@@ -6,11 +6,16 @@ public class Tela {
         System.out.println("o resultado é " + num + " , onde " + num + " é o valor recebido como argumento");
     }
 
-    public static void main(String[] args) {
-        exibir(5);
+
+
+    public void print() {
+        int num = 5; // Example number. Replace with the actual value.
+        exibir(num);
     }
-
-
 }
 
-// na classe tela criar um metodo com nome exibir que recebe um valor numerico e exibe no seguinte formado: o resultado xxxxxxxxxx,onde xxxx é o valor recebido como argumento
+
+
+
+
+
