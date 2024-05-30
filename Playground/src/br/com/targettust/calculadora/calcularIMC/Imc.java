@@ -24,13 +24,13 @@ public class Imc {
         double altura = Altura();
 
         double imc = peso / (altura * altura);
-        //String resultado = String.format("%.6f", imc);
-        System.out.println("Seu IMC é: " + imc) ;
+        String resultado = String.format("%.2f", imc);
+        System.out.println("Seu IMC é: " + resultado) ;
 
         if (imc <= 18.5) {
-            System.out.println("Sua Classificação é de Magreza");
+            System.out.println("Sua Classificação é de Magreza ");
         } else if (imc <= 24.9) {
-            System.out.println("Sua Classificação Está Dentro do Normal");
+            System.out.println("Sua Classificação Está Dentro do Normal ");
         } else if (imc <= 29.9) {
             System.out.println("Sua Classificação é de Sobrepeso I");
         } else if (imc <= 39.9) {
