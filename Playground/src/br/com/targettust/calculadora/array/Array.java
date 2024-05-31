@@ -1,8 +1,8 @@
-package br.com.targettust.calculadora.notasdearray;
+package br.com.targettust.calculadora.array;
 
 import java.util.Scanner;
 
-public class SomaArray {
+public class Array {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -35,9 +35,4 @@ public class SomaArray {
             System.out.println("Situação: Reprovado");
         }
     }
-
 }
-
-
-
-
