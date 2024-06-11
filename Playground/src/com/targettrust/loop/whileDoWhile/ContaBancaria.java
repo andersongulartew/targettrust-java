@@ -14,7 +14,9 @@ public class ContaBancaria {
         System.out.println("Seu saldo inicial é : " + saldoInicial);
 
         int opcao;
+
         do {
+
             System.out.println("Voce deseja fazer um depósito ou saque ?");
             System.out.println("Digite 1. para deposito:");
             System.out.println("Digite 2. para saque:");
