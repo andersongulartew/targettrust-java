@@ -16,7 +16,6 @@ public class ContaBancaria {
         int opcao;
 
         do {
-
             System.out.println("Voce deseja fazer um depósito ou saque ?");
             System.out.println("Digite 1. para deposito:");
             System.out.println("Digite 2. para saque:");

@@ -8,7 +8,7 @@ public class AdivinharNumero {
         Scanner sc = new Scanner(System.in);
 
         Random rand = new Random();
-        int valor = rand.nextInt(10);
+        int valor = rand.nextInt(10)+1;
         int numeroTentativas = 0;
         boolean acertou = false;
 

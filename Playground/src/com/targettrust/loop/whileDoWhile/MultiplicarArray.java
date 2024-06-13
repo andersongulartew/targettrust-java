@@ -7,14 +7,9 @@ public class MultiplicarArray {
         int i = 0;
         while (i < id.length) {
             id[i] *= 2;
+            System.out.println("Array Com Valores Atualizados:" + id[i]);
             i++;
         }
-
-        System.out.println("Array Com Valores Atualizados:");
-        for (int numero : id) {
-            System.out.print(numero + " ");
-        }
-
 
 
 
