@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/targettrust-java.iml" filepath="$PROJECT_DIR$/targettrust-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/targettrust-java.iml" filepath="$PROJECT_DIR$/.idea/targettrust-java.iml" />
     </modules>
   </component>
 </project>
