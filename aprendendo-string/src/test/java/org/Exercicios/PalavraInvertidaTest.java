@@ -9,7 +9,7 @@ class PalavraInvertidaTest {
     void whenInverterthenPalavra() {
 
         PalavraInvertida inverter = new PalavraInvertida();
-        String resultado = inverter.inverterPalavra();
+        String resultado = inverter.inverterPalavra("abacate");
         assertEquals("etacaba", resultado);
     }
 }
