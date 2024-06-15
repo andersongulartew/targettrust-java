@@ -1,6 +1,6 @@
-package org.example.Exercicios;
+package org.Exercicios;
 
-public class Exercicio1 {
+public class ExercicioExemplo {
     public static void main(String[] args) {
         // Exercicio Exemplo
         // metodo que inverta uma string
