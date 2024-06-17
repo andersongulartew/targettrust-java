@@ -12,10 +12,15 @@ public class NomeSobrenome {
 //        System.out.println(nome);
 //        System.out.println(sobrenome);
 
-        String nomeCompleto1 = "Anderson Wodnoff";
+        String nomeCompleto1 = "Anderson Gularte Wodnoff";
         String[] nomeSeparado1 = nomeCompleto1.split(" ");
         System.out.println(nomeSeparado1[0]);
-        System.out.println(nomeSeparado1[1]);
+        System.out.println(nomeSeparado1[1]+nomeSeparado1[2]);
+
+        System.out.println("----------------------------------");
+
+        String nomeCompleto = "Anderson\nGularte Wodnoff";
+        System.out.println(nomeCompleto);
 
 
     }
