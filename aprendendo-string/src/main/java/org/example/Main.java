@@ -38,12 +38,12 @@ public class Main {
 //        System.out.println(citacao);
 
 
-//        String texto2 = "exemplo"; // string normal
-//        char caracter1 = texto2.charAt(0); // mostra apenas a letra desta posição
-//        char[] caracters = texto2.toCharArray(); // transforma um array de caracteres
-//        System.out.println(caracter1);
-//        System.out.println(caracters);
-//        System.out.println(caracters[1]);
+        String texto2 = "exemplo"; // string normal
+        char caracter1 = texto2.charAt(0); // mostra apenas a letra desta posição
+        char[] caracters = texto2.toCharArray(); // transforma um array de caracteres
+        System.out.println(caracter1);
+        System.out.println(caracters);
+        System.out.println(caracters[1]);
 
 
 
@@ -54,13 +54,15 @@ public class Main {
 
 
 
-//        String texto3 = "Espaços ";
+//        String texto3 = "Espaços";
 //        String semEspacos = texto3.trim(); // remove espaços em branco
 //        String substituido = texto3.replace("Espaços","Texto"); // substitui uma string "espaços" por "texto
-//        String [] partes = texto3.split("a"); // divide a string em partes , dividius após o "a"
+//        String [] partes = texto3.split("a"); // divide a string em partes , dividiu após o "a"
 //        System.out.println(semEspacos);
 //        System.out.println(substituido);
-//        System.out.println(partes[1]);
+
+
+
 
 
 //        String texto4 = "Texto";
@@ -99,7 +101,7 @@ public class Main {
 
 //        String texto5 = "Hello, World";
 //        int primeiraOcorrencia = texto5.indexOf('o'); // retorna em qual posição o item citado
-//        int segundoOcorrencia = texto5.indexOf('0');// retorna em qual posição o item citado
+//        int segundoOcorrencia = texto5.lastindexOf('0');// retorna em qual posição o item citado
 //        System.out.println(primeiraOcorrencia);
 //        System.out.println(segundoOcorrencia);
 
@@ -115,11 +117,11 @@ public class Main {
 //        String resultado = sb.toString(); // converte para uma string quando necessario
 //        System.out.println(resultado);
 
-        StringBuffer sb1 = new StringBuffer();
-        sb1.append("Hello, ");
-        sb1.append("world");
-        String result = sb1.toString();
-        System.out.println(result);
+//        StringBuffer sb1 = new StringBuffer();
+//        sb1.append("Hello, ");
+//        sb1.append("world");
+//        String result = sb1.toString();
+//        System.out.println(result);
 
 
     }
