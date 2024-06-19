@@ -15,10 +15,11 @@ public class NomeSobrenome {
         String nomeCompleto1 = "Anderson Gularte Wodnoff";
         String[] nomeSeparado1 = nomeCompleto1.split(" ");
         System.out.println(nomeSeparado1[0]);
-        System.out.println(nomeSeparado1[1]+nomeSeparado1[2]);
+        System.out.println(nomeSeparado1[1]+" " +nomeSeparado1[2]);
 
         System.out.println("----------------------------------");
 
+        // esta quebrando a linha e não separando o nome do sobrenome
         String nomeCompleto = "Anderson\nGularte Wodnoff";
         System.out.println(nomeCompleto);
 
