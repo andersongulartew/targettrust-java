@@ -32,10 +32,10 @@ public class Enum {
 //            case SEGUNDA:
 //                System.out.println("Hoje é segunda");
 //                break;
-//
-//            // outros casos
-//        }
+
+            // outros casos
+        }
 
 
     }
-}
+

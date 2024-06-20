@@ -9,4 +9,6 @@ public enum DiaDaSemana {
     public String getNome() {
         return nome;
     }
+
+
 }
