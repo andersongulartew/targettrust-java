@@ -9,7 +9,7 @@ public class ValorFloatEmInteiro {
         System.out.println("Favor digitar um valor com virgula : ");
         float valor = num.nextFloat();
 
-        Integer numero = Math.round(valor);
+        int numero = Math.round(valor);
 
         System.out.println("O valor inteiro é: " + numero);
 

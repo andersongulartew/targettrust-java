@@ -1,4 +1,4 @@
-public class Enum {
+public class DiaDaSemanaEnum {
     public static void main(String[] args) {
 
         int dia = DiaDaSemana.SEGUNDA.ordinal();

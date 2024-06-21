@@ -1,22 +1,20 @@
-package exercicios;
+package exercicios.estacoesdoano;
 
 import java.util.Scanner;
 
 public class EstacoesDoAno {
 
     public static void main(String[] args) {
-
         Scanner entrada = new Scanner(System.in);
-
         System.out.println("informe um mes de 1 a 12 para saber qual estação do ano estamos :");
         int mes = entrada.nextInt();
         entrada.close();
 
         EstacoesDoAnoEnum estacao = determinarEstacao(mes);
-        System.out.println("Estação do ano: " + estacao);
-
+        System.out.println("Estação do ano: " + estacao.getNome());
     }
-   public static EstacoesDoAnoEnum determinarEstacao(int mes) {
+
+    public static EstacoesDoAnoEnum determinarEstacao(int mes) {
         switch (mes) {
             case 12, 1, 2:
                 return EstacoesDoAnoEnum.VERAO;
