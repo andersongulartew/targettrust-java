@@ -1,3 +1,5 @@
+package orientacaoobjetos;
+
 public abstract class Animal {
     private final String nome;
     protected String name;

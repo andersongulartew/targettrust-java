@@ -1,3 +1,5 @@
+package orientacaoobjetos;
+
 public class OrientacaoObjeto {
 
     private String nome;

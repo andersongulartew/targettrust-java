@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.contabancaria;
 
 public class Correntista {
     private String numeroConta;
@@ -18,13 +18,9 @@ public class Correntista {
         this.numeroConta = numeroConta;
     }
 
-
-
-
     @Override
     public String toString() {
         return numeroConta + endereco;
-
 
     }
 }

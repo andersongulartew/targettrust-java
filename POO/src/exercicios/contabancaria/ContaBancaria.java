@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.contabancaria;
 
 public class ContaBancaria {
     private double saldo;
