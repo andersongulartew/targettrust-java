@@ -1,4 +1,4 @@
-package Exercicios;
+package exercicios;
 
 public class ColecaoPessoas {
     public static void main(String[] args) {
