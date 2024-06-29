@@ -28,11 +28,11 @@ public class List {
         System.out.println("Contains: " + linguagens.contains("PHP"));
         System.out.println("Contains: " + linguagens.contains("SSD"));
 
-        // qual posição na lista tem java?, indeof(primeira ocorrencia)
-        System.out.println("INdexOf: " + linguagens.indexOf("Java"));
+        // qual posição na lista tem java?, indexof(primeira ocorrencia)
+        System.out.println("IndexOf: " + linguagens.indexOf("Java"));
 
         // qual posição na lista tem java?, indeof(ultima ocorrencia)
-        System.out.println("LatIndexOf: " + linguagens.indexOf("Scala"));
+        System.out.println("LastIndexOf: " + linguagens.indexOf("Scala"));
 
         // Como remover "java " da lista - remove
         boolean removeuJava = linguagens.remove("Java");
