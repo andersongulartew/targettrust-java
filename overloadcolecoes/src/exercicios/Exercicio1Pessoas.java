@@ -1,8 +1,8 @@
-package exercicios.exercicio1;
+package exercicios;
 
 import java.util.*;
 
-public class Pessoas {
+public class Exercicio1Pessoas {
     public static void main(String[] args) {
 
         List<String> pessoas = new ArrayList<>();
@@ -16,11 +16,11 @@ public class Pessoas {
         pessoas.add("José");
         pessoas.add("Isac");
         pessoas.add("Maria Isabel");
-        System.out.println("PESSOA: ");
+/*        System.out.println("PESSOA: ");
         for (String listaNomes : pessoas) {
             System.out.println(listaNomes);
         }
-        System.out.println("\t");
+        System.out.println("\t");*/
 
         System.out.println("========================================  \n ");
         System.out.println("   MODELO_1_oficial   ");

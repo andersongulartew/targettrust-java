@@ -35,11 +35,7 @@ public class Exercicio2CampeoesDaCopa {
         for (String campeao : campeoes) {
             String pais = campeao.split("-")[1];
             quantidadeTitulos.put(pais, quantidadeTitulos.getOrDefault(pais,0) + 1);
-//           if (quantidadeTitulos.containsKey(pais)) {
-//                quantidadeTitulos.put(pais, quantidadeTitulos.get(pais) + 1);
-//            } else {
-//                quantidadeTitulos.put(pais, 1);
-//            }
+
         }
 
 

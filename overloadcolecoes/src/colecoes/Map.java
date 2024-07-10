@@ -39,7 +39,7 @@ public class Map {
     public static void listarKeysValue(java.util.Map<String, String> capitais) {
         System.out.println("Chave/Valor(Entry): ");
         for (java.util.Map.Entry<String, String> registro : capitais.entrySet()) {
-            System.out.println("Capitais: %S - %S \n" + registro.getKey() + registro.getValue());
+            System.out.println("Capitais:\n" + registro.getKey() + " " + registro.getValue());
         }
     }
 
