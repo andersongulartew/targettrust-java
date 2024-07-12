@@ -7,12 +7,12 @@ public class Fileira {
     private Long id;
     private Produto produto;
 
-    private StatusFileira fileira;
+    private StatusFileira status;
 
-    public Fileira(Long id, Produto produto, StatusFileira fileira) {
+    public Fileira(Long id, Produto produto, StatusFileira status) {
         this.id = id;
         this.produto = produto;
-        this.fileira = fileira;
+        this.status = status;
     }
 
     public Long getId() {
@@ -31,12 +31,12 @@ public class Fileira {
         this.produto = produto;
     }
 
-    public StatusFileira getFileira() {
-        return fileira;
+    public StatusFileira getStatus() {
+        return status;
     }
 
-    public void setFileira(StatusFileira fileira) {
-        this.fileira = fileira;
+    public void setStatus(StatusFileira status) {
+        this.status = status;
     }
 
     @Override
@@ -44,7 +44,7 @@ public class Fileira {
         return "Fileira{" +
                 "id=" + id +
                 ", produto=" + produto +
-                ", status=" + fileira +
+                ", status=" + status +
                 '}';
     }
 }

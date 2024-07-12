@@ -11,10 +11,9 @@ public class FluxoRecarga {
     public List<Produto> executar() throws Exception {
 
 
-        public List<Produto> executar () throws Exception {
-
             String path = System.getProperty("user.dir");
             String caminhoArquivo = path + File.separator + "snack.txt";
+
 
             FileReader fileReader = new FileReader(caminhoArquivo);
             BufferedReader br = new BufferedReader(fileReader);
@@ -37,9 +36,8 @@ public class FluxoRecarga {
                 br.close();
                 fileReader.close();
             }
-
             return produtos;
 
         }
     }
-}
+

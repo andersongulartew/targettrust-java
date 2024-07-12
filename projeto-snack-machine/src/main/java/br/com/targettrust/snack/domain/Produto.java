@@ -2,12 +2,9 @@ package br.com.targettrust.snack.domain;
 
 public class Produto {
     private Long codigo;
-
     private String descricao;
-    private Long quantidade;
-
     private Float preco;
-
+    private Long quantidade;
     public Produto(Long codigo, String descricao) {
         this.codigo = codigo;
         this.descricao = descricao;
@@ -37,6 +34,7 @@ public class Produto {
     public void setQuantidade(Long quantidade) {
         this.quantidade = quantidade;
     }
+
 
     public Float getPreco() {
         return preco;

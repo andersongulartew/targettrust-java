@@ -12,5 +12,10 @@ public class PagamentoCartao extends FormaPagamento{
         Integer validade = sc.nextInt();
         System.out.println("Informe a CVV");
         Integer CVV = sc.nextInt();
+
+
+        System.out.println("Pagamento realizado com cartão de credito no valor de : " + valor);
+
+        sc.close();
     }
 }
