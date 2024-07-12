@@ -1,4 +1,4 @@
-package br.com.targettrust.snack;
+package br.com.targettrust.snack.domain;
 
 public abstract class FormaPagamento {
 

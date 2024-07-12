@@ -1,5 +1,8 @@
 package br.com.targettrust.snack;
 
+import br.com.targettrust.snack.domain.FormaPagamento;
+import br.com.targettrust.snack.domain.PagamentoCartao;
+import br.com.targettrust.snack.domain.PagamentoDinheiro;
 import br.com.targettrust.snack.domain.Produto;
 import br.com.targettrust.snack.exceptions.ProdutoNaoEncontradoException;
 

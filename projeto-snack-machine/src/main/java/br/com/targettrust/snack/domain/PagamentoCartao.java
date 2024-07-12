@@ -1,4 +1,4 @@
-package br.com.targettrust.snack;
+package br.com.targettrust.snack.domain;
 
 import java.util.Scanner;
 
