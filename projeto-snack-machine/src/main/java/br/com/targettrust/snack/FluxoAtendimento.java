@@ -27,7 +27,7 @@ public class FluxoAtendimento {
         Produto produtoDesejado = produto1.orElseThrow(() ->
                 (new ProdutoNaoEncontradoException("Produto não encontrado")));
 
-        System.out.println("Preço: " + produtoDesejado.getPreco());
+        System.out.println("Produto escolhido foi : "+ produtoDesejado.getDescricao()+" - Preço a pagar : "+produtoDesejado.getPreco());
 
         System.out.println("Qual será a forma de pagamento?");
         System.out.println("Se for cartão de crédito/débito, informe 1");

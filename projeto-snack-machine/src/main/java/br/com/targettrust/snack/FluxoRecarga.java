@@ -8,7 +8,7 @@ import java.util.List;
 
 public class FluxoRecarga {
 
-    public List<Produto> executar() throws Exception {
+    public static List<Produto> executar() throws Exception {
 
 
             String path = System.getProperty("user.dir");

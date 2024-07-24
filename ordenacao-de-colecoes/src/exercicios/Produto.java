@@ -1,15 +1,20 @@
 package exercicios;
 
 public class Produto {
-     String nome;
+    String nome;
     double custoAquisicao;
     double valorVenda;
 
+    public Produto() {
+
+    }
     public Produto(String nome, double custoAquisicao, double valorVenda) {
         this.nome = nome;
         this.custoAquisicao = custoAquisicao;
         this.valorVenda = valorVenda;
     }
+
+
 
     public String getNome() {
         return nome;
@@ -30,12 +35,12 @@ public class Produto {
         this.valorVenda = valorVenda;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Produto{" +
-//                "nome= " + nome + '\'' +
-//                ", custoAquisicao= " + custoAquisicao +
-//                ", valorVenda= " + valorVenda +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "nome='" + nome + '\'' +
+                ", custoAquisicao=" + custoAquisicao +
+                ", valorVenda=" + valorVenda +
+                '}';
+    }
 }

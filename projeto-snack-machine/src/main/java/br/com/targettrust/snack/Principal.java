@@ -11,11 +11,11 @@ public class Principal {
 
         FluxoRecarga recarga = new FluxoRecarga();
         recarga.executar();
-//        List<Produto>  lista = recarga.executar();
+        List<Produto>  lista = recarga.executar();
 
         FluxoAtendimento atendimento = new FluxoAtendimento();
-//        atendimento.executar(lista);
-        atendimento.executar(recarga.executar());
+        atendimento.executar(lista);
+//        atendimento.executar(recarga.executar());
 
     }
 }

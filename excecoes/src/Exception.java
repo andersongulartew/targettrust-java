@@ -8,7 +8,7 @@ public class Exception {
         //FileInputStream file = new FileInputStream("arquivo.txt");
 
 
-        // TRATANDO COM BLOCO TRY-CATCH
+//        // TRATANDO COM BLOCO TRY-CATCH
 //        try{
 //            FileInputStream file2 = new FileInputStream("arquivo.txt");
 //        }catch (FileNotFoundException e){
@@ -23,9 +23,9 @@ public class Exception {
 //        } finally {
 //
 //        }
-
-
-
+//
+//
+//
 //        FileInputStream file = null;
 //         try{
 //            file= new FileInputStream("arquivo.txt");
@@ -33,8 +33,8 @@ public class Exception {
 //        }catch (FileNotFoundException ex){
 //            System.out.println("arquivo não encontrado");
 //        }finally {
-//             // lança execao chekada,precisa de bloco try-catch ouu lançar trows
-//             //file.close();
+////             // lança execao chekada,precisa de bloco try-catch ouu lançar trows
+////             //file.close();
 //             if(file!=null){
 //                 try{
 //                     file.close();

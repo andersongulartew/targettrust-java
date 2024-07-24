@@ -8,6 +8,7 @@ public class Produto {
     public Produto(Long codigo, String descricao) {
         this.codigo = codigo;
         this.descricao = descricao;
+        this.preco = preco;
 
     }
 
